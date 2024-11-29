@@ -1,3 +1,10 @@
+---
+
+import Navigation from '../components/navigation.astro';
+import "../styles/global.css"
+
+import Footer from '../components/footer.astro';
+---
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,9 +14,7 @@
     <title>Acerca de</title>
 </head>
 <body>
-<a href="/">Home</a>
-<a href="/blog/">Blog</a>
-<a href="/about/">About</a>
+<Navigation />
 
 <h1>Blog</h1>
 <h2>Aqui va mi listado de posts</h2>
@@ -20,4 +25,5 @@
     <li><a href="/posts/post-3">Post 1</a></li>
 </ul>
 </body>
+<Footer />
 </html>
